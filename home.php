@@ -59,13 +59,13 @@ if(isset($_POST['upload'])){
                 <br>
                 <textarea name="content" id="content" cols="30" rows="10" placeholder="Racontez-nous..."></textarea>
                 <br> <br>
-                <input type="submit" name='upload'>
+                <input type="submit" name='upload' class='btn'>
             </form>
         </div>
         <div class="line"></div>
         <!-- home-right -->
         <div class='home-right'>
-            <h2>Ici il y aura les articles</h2>
+            <h2><?php require('allArticles.php') ?> </h2>
         </div>
     </div>
 

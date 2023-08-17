@@ -56,7 +56,18 @@ form textarea{
     height: 53%;
 }
 .home-right{
-    background-color: red;
     width: 50vw;
-    height: 50vh;
+    max-height: 50vh;
+}
+.home-right p{
+    font-weight: 100;
+    font-size: small;
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+}
+
+.card{
+    background-color: #0263ff;
 }
